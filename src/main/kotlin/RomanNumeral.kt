@@ -1,9 +1,7 @@
 class RomanNumeral {
 	
 	companion object{
-		fun value(inputNr:Int):String{
-			var romanDigits:String=""
-			
+		fun value(inputNr:Int):String{			
 			var listOfRomanDigits=listOf(
 				Pair(1,"I"),
 				Pair(4,"IV"),
@@ -21,13 +19,10 @@ class RomanNumeral {
 			)
 			
 			if(inputNr!=0){
-				var basePair =listOfRomanDigits.findLast{it.first.compareTo(inputNr)<1}
-				System.out.println("  FOUND BASE :"+ basePair +" for input "+inputNr);
-				
+				var basePair =listOfRomanDigits.findLast{it.first.compareTo(inputNr)<1}				
 				if(basePair!=null){
 					var quotient=inputNr/basePair.first;
 					var modulo=inputNr%basePair.first;
-					System.out.println(" QUOTIENT :"+ quotient +" MODULO "+modulo);
 					return basePair.second.repeat(quotient) + value(modulo);
 				}
 			}else{
