@@ -25,4 +25,5 @@ test {
     exceptionFormat = 'full'
     events = ["passed", "failed", "skipped"]
   }
+  testLogging.showStandardStreams = true
 }

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RomanNumeralsTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2019-11-03T21:41:22" hostname="ltimertzanidis" time="0.107">
+  <properties/>
+  <testcase name="test[0: romanNumeral(1)=I]" classname="RomanNumeralsTest" time="0.044"/>
+  <testcase name="test[1: romanNumeral(2)=II]" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="test[2: romanNumeral(3)=III]" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="test[3: romanNumeral(4)=IV]" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="test[4: romanNumeral(5)=V]" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="test[5: romanNumeral(6)=VI]" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="test[6: romanNumeral(9)=IX]" classname="RomanNumeralsTest" time="0.003"/>
+  <testcase name="test[7: romanNumeral(27)=XXVII]" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="test[8: romanNumeral(48)=XLVIII]" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="test[9: romanNumeral(49)=XLIX]" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="test[10: romanNumeral(59)=LIX]" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="test[11: romanNumeral(93)=XCIII]" classname="RomanNumeralsTest" time="0.002"/>
+  <testcase name="test[12: romanNumeral(141)=CXLI]" classname="RomanNumeralsTest" time="0.007"/>
+  <testcase name="test[13: romanNumeral(163)=CLXIII]" classname="RomanNumeralsTest" time="0.02"/>
+  <testcase name="test[14: romanNumeral(402)=CDII]" classname="RomanNumeralsTest" time="0.005"/>
+  <testcase name="test[15: romanNumeral(575)=DLXXV]" classname="RomanNumeralsTest" time="0.005"/>
+  <testcase name="test[16: romanNumeral(911)=CMXI]" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="test[17: romanNumeral(1.024)=MXXIV]" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="test[18: romanNumeral(3.000)=MMM]" classname="RomanNumeralsTest" time="0.0"/>
+  <system-out><![CDATA[  FOUND BASE :(1, I) for input 1
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(1, I) for input 2
+ QUOTIENT :2 MODULO 0
+  FOUND BASE :(1, I) for input 3
+ QUOTIENT :3 MODULO 0
+  FOUND BASE :(4, IV) for input 4
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(5, V) for input 5
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(5, V) for input 6
+ QUOTIENT :1 MODULO 1
+  FOUND BASE :(1, I) for input 1
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(9, IX) for input 9
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(10, X) for input 27
+ QUOTIENT :2 MODULO 7
+  FOUND BASE :(5, V) for input 7
+ QUOTIENT :1 MODULO 2
+  FOUND BASE :(1, I) for input 2
+ QUOTIENT :2 MODULO 0
+  FOUND BASE :(40, XL) for input 48
+ QUOTIENT :1 MODULO 8
+  FOUND BASE :(5, V) for input 8
+ QUOTIENT :1 MODULO 3
+  FOUND BASE :(1, I) for input 3
+ QUOTIENT :3 MODULO 0
+  FOUND BASE :(40, XL) for input 49
+ QUOTIENT :1 MODULO 9
+  FOUND BASE :(9, IX) for input 9
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(50, L) for input 59
+ QUOTIENT :1 MODULO 9
+  FOUND BASE :(9, IX) for input 9
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(90, XC) for input 93
+ QUOTIENT :1 MODULO 3
+  FOUND BASE :(1, I) for input 3
+ QUOTIENT :3 MODULO 0
+  FOUND BASE :(100, C) for input 141
+ QUOTIENT :1 MODULO 41
+  FOUND BASE :(40, XL) for input 41
+ QUOTIENT :1 MODULO 1
+  FOUND BASE :(1, I) for input 1
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(100, C) for input 163
+ QUOTIENT :1 MODULO 63
+  FOUND BASE :(50, L) for input 63
+ QUOTIENT :1 MODULO 13
+  FOUND BASE :(10, X) for input 13
+ QUOTIENT :1 MODULO 3
+  FOUND BASE :(1, I) for input 3
+ QUOTIENT :3 MODULO 0
+  FOUND BASE :(400, CD) for input 402
+ QUOTIENT :1 MODULO 2
+  FOUND BASE :(1, I) for input 2
+ QUOTIENT :2 MODULO 0
+  FOUND BASE :(500, D) for input 575
+ QUOTIENT :1 MODULO 75
+  FOUND BASE :(50, L) for input 75
+ QUOTIENT :1 MODULO 25
+  FOUND BASE :(10, X) for input 25
+ QUOTIENT :2 MODULO 5
+  FOUND BASE :(5, V) for input 5
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(900, CM) for input 911
+ QUOTIENT :1 MODULO 11
+  FOUND BASE :(10, X) for input 11
+ QUOTIENT :1 MODULO 1
+  FOUND BASE :(1, I) for input 1
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(1000, M) for input 1024
+ QUOTIENT :1 MODULO 24
+  FOUND BASE :(10, X) for input 24
+ QUOTIENT :2 MODULO 4
+  FOUND BASE :(4, IV) for input 4
+ QUOTIENT :1 MODULO 0
+  FOUND BASE :(1000, M) for input 3000
+ QUOTIENT :3 MODULO 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,1 @@
+C:\Users\imertzanidis\Exercism\kotlin\roman-numerals\build\classes\kotlin\main\RomanNumeral$Companion.class;C:\Users\imertzanidis\Exercism\kotlin\roman-numerals\build\classes\kotlin\main\RomanNumeral.class
